@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--    
+    Pair game    pair-game
+   Git-et használj! A repository-d neve: pair-game. Case sensitive-en.
+
+   Egy “Keresd a párját” játékot kell készítened
+
+   A játékban két sorban soronként 5 azaz összesen 10 darab kártya látható
+   A játék kezdetekor kártyák le vannak fordítva 
+   A kártyák másik oldala egy egyszerű ábrát tartalmaz
+   Az ábrák szabadon választható képek, vagy akár ikonok is lehetnek a könnyebb felismerhetőség végett
+   Minden ábrából összesen két darab van
+   Amikor a játékos rákattint egy kártyára az egy egyszerű animáció kíséretében megfordul, felfedve az ábrát
+   Az első kártyára való kattintáskor elindul egy számláló, ami a játékidőt mutatja perc/másodperc formában
+   Amennyiben egymás után két felfordított kártyán ugyanaz az ábra szerepel, 
+   azokat felfordítva kell hagyni a játék végéig, többet nem lehet rájuk kattintani
+   Amennyiben a két ábra eltérő, mind a kettőt automatikusan vissza kell fogatni
+   A játéknak akkor van vége, amikor az összes kártya képes oldala látszik
+   A számláló a játék végén megáll
+   5 másodperc múlva a számláló nullázódik, és az összes kártya visszafordul, kezdődhet egy új játék    
+    -->
+
+    <main class="main__container">
+        <div class="main__container--content">
+            <header>
+                <p class="header__text">JAVASCRIPT PAIRS GAME</p>
+            </header>
+
+            <section class="instruction">
+                <h3 class="instruction__text">CLICK ANY CARD TO BEGIN</h3>
+            </section>
+
+            <section class="display">
+                <p class="display__time">00:00</p>
+            </section>
+
+            <section class="game">
+                <div class="cards">
+                    <div class="cards__container">
+                        <button class="btn card1">1</button>
+                        <button class="btn card1">1</button>
+                        <button class="btn card2">2</button>
+                        <button class="btn card2">2</button>
+                        <button class="btn card3">3</button>
+                    </div>
+
+                    <div class="cards__container">
+                        <button class="btn card3">3</button>
+                        <button class="btn card4">4</button>
+                        <button class="btn card4">4</button>
+                        <button class="btn card5">5</button>
+                        <button class="btn card5">5</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+
+</html>
