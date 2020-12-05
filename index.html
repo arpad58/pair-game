@@ -10,7 +10,7 @@
 
 <body>
     <!--    
-    Pair game    pair-game
+    Pair game   pair-game
    Git-et használj! A repository-d neve: pair-game. Case sensitive-en.
 
    Egy “Keresd a párját” játékot kell készítened
@@ -30,42 +30,64 @@
    5 másodperc múlva a számláló nullázódik, és az összes kártya visszafordul, kezdődhet egy új játék    
     -->
 
-    <main class="main__container">
-        <div class="main__container--content">
-            <header>
-                <p class="header__text">JAVASCRIPT PAIRS GAME</p>
-            </header>
 
-            <section class="instruction">
-                <h3 class="instruction__text">CLICK ANY CARD TO BEGIN</h3>
-            </section>
+    <section class="header">
+        <p class="header-text">JAVASCRIPT PAIRS GAME</p>
+    </section>
 
-            <section class="display">
-                <p class="display__time">00:00</p>
-            </section>
+    <section class="instruction">
+        <h3 class="instruction-text">CLICK ANY CARD TO BEGIN</h3>
+    </section>
 
-            <section class="game">
-                <div class="cards">
-                    <div class="cards__container">
-                        <button class="btn card1">1</button>
-                        <button class="btn card1">1</button>
-                        <button class="btn card2">2</button>
-                        <button class="btn card2">2</button>
-                        <button class="btn card3">3</button>
-                    </div>
+    <section class="display">
+        <p class="display-time">00:00</p>
+    </section>
 
-                    <div class="cards__container">
-                        <button class="btn card3">3</button>
-                        <button class="btn card4">4</button>
-                        <button class="btn card4">4</button>
-                        <button class="btn card5">5</button>
-                        <button class="btn card5">5</button>
-                    </div>
-                </div>
-            </section>
+    <section class="game">
+        <div class="card">
+            <img class="front-face" src="./img/front-icon-1.png" alt="">
+            <img class="back-face" src="./img/back.png" alt="">
         </div>
-    </main>
+        <div class="card">
+            <img class="front-face" src="./img/front-icon-2.png" alt="">
+            <img class="back-face" src="./img/back.png" alt="">
+        </div>
+        <div class="card">
+            <img class="front-face" src="./img/front-icon-3.png" alt="">
+            <img class="back-face" src="./img/back.png" alt="">
+        </div>
+        <div class="card">
+            <img class="front-face" src="./img/front-icon-4.png" alt="">
+            <img class="back-face" src="./img/back.png" alt="">
+        </div>
+        <div class="card">
+            <img class="front-face" src="./img/front-icon-5.png" alt="">
+            <img class="back-face" src="./img/back.png" alt="">
+        </div>
+        <div class="card">
+            <img class="front-face" src="./img/front-icon-1.png" alt="">
+            <img class="back-face" src="./img/back.png" alt="">
+        </div>
+        <div class="card">
+            <img class="front-face" src="./img/front-icon-2.png" alt="">
+            <img class="back-face" src="./img/back.png" alt="">
+        </div>
+        <div class="card">
+            <img class="front-face" src="./img/front-icon-3.png" alt="">
+            <img class="back-face" src="./img/back.png" alt="">
+        </div>
+        <div class="card">
+            <img class="front-face" src="./img/front-icon-4.png" alt="">
+            <img class="back-face" src="./img/back.png" alt="">
+        </div>
+        <div class="card">
+            <img class="front-face" src="./img/front-icon-5.png" alt="">
+            <img class="back-face" src="./img/back.png" alt="">
+        </div>
 
+    </section>
+
+    <script src="./game.js"></script>
 </body>
 
 </html>
