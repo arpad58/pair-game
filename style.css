@@ -5,15 +5,12 @@
 }
 
 body {
-    height: 100vh;
-    
+    height: 100vh;   
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: rgb(151, 150, 150);
     background-color: rgb(189, 255, 211);
 }
-
-
 
 .header {
     text-align: center;
@@ -32,7 +29,6 @@ body {
 
 .instruction-text {
    padding: 0rem;
-
 }
 
 .display {
