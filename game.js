@@ -36,6 +36,13 @@ let hasFlippedCard = false;
 let firstCard;
 let secondCard;
 
+(function shuffle() {
+    cards.forEach(card => {
+        let randomPositions = Math.floor(Math.random() * 10);
+        card.style.order = randomPositions;
+    });
+})();
+
 function flipCard() {
     this.classList.add('flip');
 
@@ -53,7 +60,7 @@ function flipCard() {
             setTimeout(() => {
                 firstCard.classList.remove('flip');
                 secondCard.classList.remove('flip');
-            }, 00);
+            }, 600);
         }
     }
 }
